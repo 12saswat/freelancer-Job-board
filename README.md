@@ -45,9 +45,13 @@ This is a **fully functional RESTful API** built with **Node.js**, **Express**, 
 
 - Node.js + Express
 - MongoDB + Mongoose
-- JWT Authentication
-- bcrypt.js (password hashing)
-- Helmet, CORS, Rate Limiting (security)
+- JWT Authentication (`jsonwebtoken`)
+- Password hashing with `bcrypt`
+- Input validation with `express-validator`
+- Environment variables with `dotenv`
+- Security middlewares: `cors`, `cookie-parser`, Helmet (if used)
+- Development tool: `nodemon` for auto-restart
+
 
 ---
 
